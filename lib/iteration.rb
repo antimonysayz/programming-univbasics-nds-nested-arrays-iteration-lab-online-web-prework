@@ -27,7 +27,7 @@ def find_greater_pair(src)
   arr
 end
 
-find_greater_pair([[1,2],[10,3],[5,120]])
+
 
 
 def total_even_pairs(src)
