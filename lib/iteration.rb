@@ -10,7 +10,7 @@ def join_ingredients(src)
   outter_index = 0
   new_arr = []
   while outter_index < src.count do
-    new_arr << ["I love #{src[outter_index][0]} and #{src[outter_index][1]} on my pizza"]
+    new_arr << ("I love #{src[outter_index][0]} and #{src[outter_index][1]} on my pizza")
     outter_index += 1
   end
   new_arr
