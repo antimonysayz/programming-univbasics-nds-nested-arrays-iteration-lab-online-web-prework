@@ -10,6 +10,7 @@ def join_ingredients(src)
   outter_index = 0
   while outter_index < src.count do
     puts "I love #{src[outer_index][0]} and #{src[outter_index][1]} on my pizza"
+  end
 end
 
 def find_greater_pair(src)
