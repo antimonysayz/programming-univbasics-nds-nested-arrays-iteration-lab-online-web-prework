@@ -28,6 +28,7 @@ def find_greater_pair(src)
     if src[i][0] > src[i][1]
       arr << src[i][0]
     else arr << src[i][1]
+      i += 1
   end
   arr
 end
